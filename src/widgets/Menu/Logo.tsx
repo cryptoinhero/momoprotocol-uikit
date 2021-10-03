@@ -26,6 +26,7 @@ const StyledLink = styled(Link)`
     width: 156px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
+      width: 325px;
       display: block;
     }
   }

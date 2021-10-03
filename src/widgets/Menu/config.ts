@@ -115,6 +115,11 @@ export const links = [
 
 export const socials = [
   {
+    label: "Docs",
+    icon: "DocsIcon",
+    href: "https://momoprotocol-1.gitbook.io/momoprotocol/",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
@@ -126,50 +131,7 @@ export const socials = [
         label: "ANN",
         href: "https://t.me/momoprotocol",
       },
-      // {
-      //   label: "中文",
-      //   href: "https://t.me/momofinancechinese",
-      // },
-      // {
-      //   label: "Tiếng Việt",
-      //   href: "https://t.me/PancakeSwapVN",
-      // },
-      // {
-      //   label: "Italiano",
-      //   href: "https://t.me/momofinanceitalian",
-      // },
-      // {
-      //   label: "русский",
-      //   href: "https://t.me/momofinancerussian",
-      // },
-      // {
-      //   label: "Türkiye",
-      //   href: "https://t.me/momoFinanceTurkey",
-      // },
-      // {
-      //   label: "Português",
-      //   href: "https://t.me/PancakeSwapPortuguese",
-      // },
-      // {
-      //   label: "Español",
-      //   href: "https://t.me/momofinancespanish",
-      // },
-      // {
-      //   label: "日本語",
-      //   href: "https://t.me/momofinancejapanese",
-      // },
-      // {
-      //   label: "Français",
-      //   href: "https://t.me/momofinancefrench",
-      // },
-      // {
-      //   label: "Announcements",
-      //   href: "https://t.me/momofinanceann",
-      // },
-      // {
-      //   label: "Price Bot",
-      //   href: "https://t.me/BinanceRocketEGG",
-      // },
+      
     ],
   },
   {
@@ -177,11 +139,6 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/momo_protocol",
   },
-  // {
-  //   label: "Reddit",
-  //   icon: "RedditIcon",
-  //   href: "https://www.reddit.com/r/MomoFinanceofficial",
-  // },
 ];
 
 export const MENU_HEIGHT = 64;

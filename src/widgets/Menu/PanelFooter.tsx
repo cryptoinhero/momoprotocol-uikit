@@ -90,6 +90,7 @@ const PanelFooter: React.FC<Props> = ({
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
             const iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
+            const iconDocsProps = { width: "19px", color: "textSubtle", style: { cursor: "pointer" } };
             const mr = index < socials.length - 1 ? "8px" : 0;
             if (social.items) {
               return (
@@ -104,7 +105,11 @@ const PanelFooter: React.FC<Props> = ({
             }
             return (
               <Link external key={social.label} href={social.href} aria-label={social.label} mr={mr}>
-                <Icon {...iconProps} />
+                {social.label === 'Docs' ? (
+                  <Icon {...iconDocsProps} />
+                ) : (
+                  <Icon {...iconProps} />
+                )}
               </Link>
             );
           })}

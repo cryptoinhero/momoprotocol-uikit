@@ -26,3 +26,4 @@ export { default as CoinGeckoIcon } from "./CoinGecko";
 export { default as CoinTigerIcon } from "./CoinTiger";
 export { default as CoinMarketCapIcon } from "./CoinMarketCap";
 export { default as HotBitIcon } from "./HotBit";
+export { default as DocsIcon } from "./Docs";
